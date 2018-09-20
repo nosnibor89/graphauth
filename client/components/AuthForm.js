@@ -25,7 +25,7 @@ class AuthForm extends Component {
 
         return (
             <div className="row">
-                <form className="col s5" onSubmit={this.onSubmit.bind(this)}>
+                <form className="col s5" onSubmit={this.onSubmit.bind(this)} autoComplete="off">
                     <div className="input-field">
                         <input
                             placeholder="Email"
